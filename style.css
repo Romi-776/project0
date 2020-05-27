@@ -66,8 +66,44 @@ th{
     font-weight: bolder;
 }
 
-a:hover{
-    background-color: lightblue;
+a{
+    margin: 15px;
+    padding: 5px;
+    margin-left: 2px;
+    color: rgb(102, 202, 160);
+    font-family:  'Arial Narrow Bold', sans-serif;
     font-size: larger;
-    color: black;
+    font-weight: bolder;
+}
+
+a:hover, a:active{
+    font-size: xx-large;
+    color: rgb(13, 243, 128);
+    text-decoration: underline;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+#football::before{
+    content: "\26BD";
+    font-size: xx-large;
+}
+
+#cricket::before{
+    content: "\1F3CF";
+    font-size: xx-large;
+}
+
+#scuba::before
+{
+    content: "🤿";
+    font-size: xx-large;
+}
+
+#sky::before
+{
+    content: "🪂";
+    font-size: xx-large;
 }
