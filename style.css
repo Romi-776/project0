@@ -32,12 +32,14 @@ img{
 
 h1{
     font-size: 200%;
+    text-shadow: 2px 2px 2px rgb(216, 142, 45);
     font-weight: bolder;
     margin-bottom: 5px;
 }
 
 h2{
     font-size: 1.4em;
+    text-shadow: 1px 1px 1px rgb(216, 142, 45);
     font-weight: bolder;
     margin-bottom: 5px;
 }
