@@ -1,23 +1,30 @@
 *{
     box-sizing: border-box;
     text-align: center;
-    background-color: #3f2727;
+    background-color: #3f2727 !important;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
-@media (max-width: 992px){
-    *{
-        background-color: rgb(60, 70, 54);
+@media (max-width: 500px) and (orientation: portrait){
+    .landscape{
+        display: none;
     }
 }
+
+@media (min-width: 501px){
+    .portrait{
+        display: none;
+    }
+}
+
 
 section{
     margin-top: 60px;
 }
 
 img{
-    border: 3px solid white;
+    border: 3px solid white !important;
     image-rendering: crisp-edges;
     margin: 10px;
     padding: 2px;
@@ -42,6 +49,10 @@ li, ul, ol{
     color: white;
 }
 
+table{
+    width: 98%;
+}
+
 table, td, thead, tbody
 {
     font-size: 18px;
@@ -57,6 +68,7 @@ thead{
 
 th{
     border: 6px solid gray;
+    text-align: center;
     margin: 10px;
 }
 
@@ -70,7 +82,6 @@ a{
     margin: 15px;
     padding: 5px;
     margin-left: 2px;
-    color: rgb(102, 202, 160);
     font-family:  'Arial Narrow Bold', sans-serif;
     font-size: larger;
     font-weight: bolder;
@@ -78,7 +89,6 @@ a{
 
 a:hover, a:active{
     font-size: xx-large;
-    color: rgb(13, 243, 128);
     text-decoration: underline;
 }
 
