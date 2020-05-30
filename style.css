@@ -42,6 +42,7 @@ img {
 }
 
 h1 {
+  letter-spacing: .2em;
   font-size: 200%;
   text-shadow: 2px 2px 2px #d88e2d;
   font-weight: bolder;
@@ -49,6 +50,8 @@ h1 {
 }
 
 h2 {
+  line-height: 1.8em;
+  letter-spacing: .1em;
   font-size: 1.4em;
   text-shadow: 1px 1px 1px #d88e2d;
   font-weight: bolder;
